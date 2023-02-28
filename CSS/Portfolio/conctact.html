@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Connect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!-- Header section -->
+   <div class="container">
+    <header class="main-header">
+        <div class="main-header__brand">
+            <a href="./index.html">
+                <img src="./imgaes/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item ">
+                    <a href="./index.html">Main</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">About me</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">My services</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">My clients</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">My blog</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Partners</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Footer</a>
+                </li>
+                <li class="main-nav__item active">
+                    <a href="./conctact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   </div>
+    <!-- /Header Section -->
+    <div class="container">
+       
+        <section class="contact">
+            <div class="form-title">
+                Connect with me
+            </div>
+           <form action="server.php" method="GET">
+            <textarea   rows="10" placeholder="Enter your message" name="message"></textarea>
+            <div class="half-row  contact__firstname">
+            <input type="text" placeholder="Enter your name" name="firstname">
+
+            </div>
+            <div class="half-row  contact__email">
+                <input type="email" placeholder="Enter your email" name="email">
+            </div>
+            
+            
+            <input type="text" placeholder="the meaning of letter">
+            <button class="button contact__send" type="submit">Send message</button>
+
+
+
+           </form>
+        </section>
+    </div>
+
+
+
+       <!-- Footer -->
+    
+       <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-brand">
+                <img src="./imgaes/logo.png" alt="logo">
+            </div>
+        
+            <nav class="footer-nav">
+                <ul class="footer-nav__items">
+                    <li class="footer-nav__item">
+                        <a href="#">Main</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">About me</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">My services</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">My clients</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">My blog</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">Partners</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">Footer</a>
+                    </li>
+                  
+                </ul>
+            </nav>
+            <ul class="footer-socials">
+               <li class="footer-social">
+                <a href="#">
+                    <i class="fab fa-telegram"></i>
+                </a>
+               </li>
+               <li class="footer-social">
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+               </li>
+               <li class="footer-social">
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+               </li>
+               
+               
+               
+            </ul>
+            <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, atque.</p>
+        </div>
+        
+    </footer>
+    <!-- /Footer -->
+</body>
+</html>
